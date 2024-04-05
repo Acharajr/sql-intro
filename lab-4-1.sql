@@ -3,4 +3,8 @@
 -- Expected result:
 -- 2935
 
+SELECT SUM(hits) FROM players
+INNER JOIN stats ON players.id = stats.player_id
+Where first_name = "Barry" 
+AND last_name = "Bonds";
 
