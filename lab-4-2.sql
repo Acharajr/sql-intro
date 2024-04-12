@@ -5,6 +5,10 @@
 -- WHERE column1 = expression1
 -- AND column2 = expression2
 
+SELECT first_name, last_name FROM players
+INNER JOIN teams ON player.id = teams.name
+WHERE teams = chicago_cubs and year = 2020;
+
 -- Expected result: 47 rows starting with
 --
 -- +------------+-----------+

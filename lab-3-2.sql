@@ -1,7 +1,9 @@
 -- For each team, what is the average number of wins per season, in the 21st century?
-SELECT name, AVG(wins) FROM teams
-Where year > 2001
+SELECT name, AVG(wins) 
+FROM teams
+Where year > 2000
 GROUP BY name
+
 
 -- Expected result:
 --
@@ -41,5 +43,3 @@ GROUP BY name
 -- | Toronto Blue Jays             | 77.4             |
 -- | Washington Nationals          | 78.0             |
 -- +-------------------------------+------------------+
-
-
