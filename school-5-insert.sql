@@ -1,1 +1,1 @@
-INSERT INTO students ("first_name", "last_name) VALUES ("Ben", "Block");
+INSERT INTO students ("first_name", "last_name") VALUES ("Ben", "Block");

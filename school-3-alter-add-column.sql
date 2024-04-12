@@ -1,3 +1,3 @@
 -- Add a phone number column
 
-ALTER TABLE students ADD COLUMN email TEXT;
+ALTER TABLE students ADD COLUMN phone email TEXT;
